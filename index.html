@@ -84,16 +84,26 @@
                 </div>
             </div>
            </section>
-        
-           <form>
-            <h2 class="hidden">Contact Form</h2>
-            <div class="grid-con" id="contact">
-                <div id="contact-text" class="box-color">
-                </div>
-                <div id="contact-form" class="box-color">
-                </div>
-            </div> 
-           </form>
+
+
+
+           <section class="grid-con" id="contact">
+            <section id="contact-text">
+                <h2>Join Our Monthly Book Club</h2>
+                <p>Every month we pick a new book based off of popular suggestions. Feel free to sign up and suggest a new book or two! Signing up enables you to write reviews, comment on reviews, add books to your reading wish-list, receive exclusive newsletters, contests, and more! Join right now and get reading! </p>
+            </section>
+            <section id="contact-form" class="box-color">
+                <form action="email.php" method="POST" enctype="text/plain">
+                    <input name="fullname" type="text" placeholder="Full Name">
+                    <input name="email" type="text" required placeholder="Email">
+                    <input name="phone" type="text" required placeholder="Phone #">
+                    <textarea name="suggestions" placeholder="Enter Your Book of The Month Suggestions Here..."></textarea>
+                    <input name="submit" type="submit" value="Sign Up">
+                </form>
+            </section>
+        </section> 
+           
+
         </main>
 
         <footer id="footer-con">
