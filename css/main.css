@@ -6,7 +6,8 @@
 2. Grid
 3. Header
 4. Main Hero Image
-5. 
+5. Book Of The Month
+6. Contact Form 
 
 
 
@@ -36,9 +37,10 @@ p {
 
 .box-color {
 	color: #fff;
-	background: #000;
+	background: #F69A9A;
 	text-align: center;
 	margin: 0;
+	border-radius: 30px;
 }
 
 .button {
@@ -240,6 +242,8 @@ you work on and the intended audience */
 	background-color:#F7ECE5;
 }
 
+/* --- 5. Book Of The Month --- */ 
+
 #about-con {
 	background-color: #95735E;
 	padding-top: 10px;
@@ -252,7 +256,6 @@ you work on and the intended audience */
 
 #about-text {
 	grid-column: 1/8;
-	/* Remove as content will dictate height */
 	height: 700px;
 	color: #F8F3E3;
 	
@@ -273,9 +276,9 @@ you work on and the intended audience */
 
 #about-image {
 	grid-column: 8/-1;
-	/* Remove as content will dictate height */
-	height: 700px;
 }
+
+/* --- 6. Contact form --- */
 
 #contact {
 	margin-top: 100px;
@@ -284,15 +287,60 @@ you work on and the intended audience */
 
 #contact-text {
 	grid-column: 1/8;
-	/* Remove as content will dictate height */
-	height: 700px;
+	margin-right: 50px;
 }
 
 #contact-form {
 	grid-column: 8/-1;
-	/* Remove as content will dictate height */
-	height: 700px;
+	padding-top: 88px;
+	padding-bottom: 55px;
 }
+
+#contact-form form {
+		display: flex;
+		flex-direction: column;
+}
+
+#contact-form textarea {
+	height: 107px;
+}
+
+input, textarea {
+    padding: 22px;
+    border: none;
+    border-radius:  5px;
+    margin-bottom: 16px;
+    font: inherit;
+	font-size: 28px;
+	margin-left: 40px;
+	margin-right: 40px;
+	color: #95735E;
+}
+
+input[type="text"] {
+	color:#95735E;
+}
+
+input[type="submit"] {
+    width: 200px;
+    padding: 10px 32px;
+    background-color: #F7ECE5;
+    color: #95735E;
+    border-radius: 34px;
+	border: none;
+    transition: all 200ms ease-in;
+    align-self: left;
+	font-size: 28px;
+	font-weight: bold;
+	cursor: pointer;
+	margin-top: 50px;
+}
+
+input[type="submit"]:hover {
+    background-color: #C7C8A9;
+    border-radius: 34px;
+}
+
 
 /*Common page elements  */
 
