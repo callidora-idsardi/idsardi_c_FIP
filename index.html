@@ -5,31 +5,26 @@
 <title>Book Worm Cafe</title>
 <link href="css/main.css" rel="stylesheet">
 </head>
-<!-- students must convert divs to semantic tags -->
 <body>
     <h1 class="hidden">Book Worm Cafe</h1>
 	<div id="container">
-        
         <header id="header-con">
             <div id="main-header" class="grid-con">
                 <div id="logo">
                     <img src="images/idsardi_callidora_logo_final.svg" alt="Book worm cafe">
                 </div>
-
                 <nav id="main-nav">
                     <h2 class="hidden">Main Navigation</h2>
                     <ul>
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html">Home</a></li> 
                         <li><a href="#">Our Story</a></li>
                         <li><a href="gallery.html">Collections</a></li>
                         <li><a href="#">Blog</a></li>
-                        <li><a href="#">Location</a></li>
+                        <li><a href="#">Signin/Register</a></li>
                     </ul>
                 </nav>
-
-                <a class="button" id="book-club-top" href="#">
-                <h3>Book Club</h3></a>
-                <img src="images/worm_logo.svg" alt="multi-coloured worm" id="worm">
+                <a id="book-club-top" href="#">
+                <h3>My Wish-list <img src="images/coffee_icon.svg" id="coffee-header"></h3></a>
             </div>
         </header> 
 
@@ -38,35 +33,44 @@
 
                 <section id="hero-text">
                     <h2>Our New Arrivals</h2>
-                    <p>Consectetur adipisicing elit. Molestiae deserunt ipsa ut officia, consequuntur placeat repellat, porro fugit earum nobis a vero natus! Fuga delectus sapiente at itaque accusamus ad. Aipisicing elit. Molestiae deserunt ipsa ut officia, consequuntur placeat repellat, porro fugit earum nobis a vero natus! Fuga delectus sapiente at itaque accusamus ad.</p>
+                    <p>Welcome to the Book Worm Café, where you can read and rate the latest up-coming novels and find your next favourite author! For the special month of October, we have a variety of featured cozy fall readings that we know you'll enjoy.</p>
                 </section>
 
                 <div><img src="images/hero_hm_desktop.jpg" alt="Pink Lamb Kettle" id="hero-image"></div>
 
-                <a class="button" id="read-more-hero" href="#">
+                <a class="button article-button" href="#">
                 <h3>Read More</h3>
                 </a>
             </div>  
 
             <section class="grid-con" id="products">
-                 <h2>Fall Classics</h2>
+                 <h2>Cozy Fall Choices</h2>
 
                 <section class="product-box" id="product1">
                     <img src="images/cruel_hm_desktop.jpg" alt="King and Queen of Nothing Series">
-                    <h3>King & Queen of Nothing</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum animi doloremque vitae ipsa expedita hic perferendis error ut nisi ea, numquam exercitationem libero minus officia asperiores qui enim, obcaecati nulla.</p>
+                    <div class="cozy-choices">
+                    <a href="">Read More</a>
+                    </div>
+                    <h3>Cruel Prince Collection</h3>
+                    <p><em>The Cruel Prince Collection</em> by <b>Holly Black</b>. Jude is left to be the mortal queen in a dangerous fairyland. . .</p>
                 </section>
 
                 <section class="product-box" id="product2">
                     <img src="images/poetry_hm_desktop.jpg" alt="Various poetry books">
-                    <h3>All Things Poetry</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore est velit illo maxime sequi quod, dolore officia ex qui. Quidem fugit ab veniam nulla aliquam, hic vel! Laboriosam, facere quos!</p>
+                    <div class="cozy-choices">
+                        <a href="">Read More</a>
+                    </div>
+                    <h3>Poetry Classics</h3>
+                    <p><b>Rupi Kaur</b>, and many other talented poets are featured this month! Check them all out.</p> 
                 </section>
 
                 <section class="product-box" id="product3">
                     <img src="images/faire_spread_hm_desktop.jpg" alt="Harrow Faire Series">
-                    <h3>Some Other Series</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero nam exercitationem porro, consectetur voluptate eum consequatur ex sunt. Quisquam molestiae neque nulla officia illum. Quis laborum eligendi totam dignissimos veniam.</p>
+                    <div class="cozy-choices">
+                        <a href="">Read More</a>
+                    </div>
+                    <h3>Harrow Faire Collection</h3>
+                    <p><em>Harrow Faire</em> by  <b>Kathryn Ann Kingsley</b>. Come one, come all to the Harrow Faire... and greet your sweetest nightmare. </p>
                 </section>
             </section>
 
@@ -77,15 +81,15 @@
                     <section id="about-text">
                         <h3 id="about-subtitle">Remember, it's only a game...</h3>
                         <p id="about-paragraph">
-                         Afficitur sit amet. Proin nec cursus nulla. Vivamus mattis erat bibendum est ornare, nec tempor diam pellentesque. Curabitur aliquet tincidunt pulvinar. Curabitur elit orci, blandit auctor fringilla quis, tempor dapibus enim. Mauris pharetra metus ut metus vehicula volutpat. Nulla vel iaculis elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam consectetur neque nulla, vel vulputate nisi varius a. Vestibulum sit amet libero eget eros mattis pellentesque.</p>
+                            Join two sisters as they have a once-in-a-life-time opportunity to see Caraval, a performance where the audience participates in the show.  Everything that happens in Caraval is only an elaborate performance...</p>
                     </section>
-
                     <img src="images/caraval_pictures_desktop.jpg" alt="image" id="about-image">
+                    <a class="button article-button" href="#">
+                        <h3>Read More</h3>
+                   </a>
                 </div>
             </div>
            </section>
-
-
 
            <section class="grid-con" id="contact">
             <section id="contact-text">
@@ -108,14 +112,28 @@
 
         <footer id="footer-con">
             <div class="grid-con" id="footer">
-                <div id="footer-logo" class="box-color">
+                <div id="logo">
+                    <img src="images/idsardi_callidora_logo_final.svg" alt="Book worm cafe">
                 </div>
-                <div id="footer-nav" class="box-color">
-                </div>
+                <nav id="footer-nav" class="box-color">
+                    <h2 class="hidden">Main Footer Navigation</h2>
+                        <ul>
+                            <li><a href="index.html">Home</a></li> 
+                            <li><a href="#">Our Story</a></li>
+                            <li><a href="gallery.html">Collections</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Signin/Register</a></li>
+                        </ul>
+                </nav>
+                <section>
+                    <h3>Join Our Newsletter! - Sign-up</h3>
                 <div id="footer-newsletter1" class="box-color">
+                    <form action="email.php" method="POST" enctype="text/plain">
+                        <input name="email" type="text" required placeholder="Email">
+                        <input name="submit" type="submit" value="Sign Up">
+                    </form>
                 </div>
-                <div id="footer-newsletter2" class="box-color">
-                </div>
+               </section>
                 <div id="footer-social" class="box-color">
                 </div>
             </div>
