@@ -6,10 +6,15 @@
 2. Grid
 3. Header
 4. Main Hero Image
-6. Cozy Fall Choices
-7. Book Of The Month
-8. Contact Form 
-9. Footer
+5. Cozy Fall Choices
+6. Book Of The Month
+7. Contact Form 
+8. Footer
+
+Gallery Page
+
+9. Hero Section 
+10. Collections
 
 
 
@@ -368,6 +373,7 @@ you work on and the intended audience */
 #footer-con {
 	background-color:#F7ECE5;
 	padding-top: 50px;
+	padding-bottom: 0;
 }
 
 #footer-logo {
@@ -415,8 +421,6 @@ you work on and the intended audience */
 
 #footer-newsletter2 {
 	grid-column: 5/7;
-	/* Remove as content will dictate height */
-	height: 80px;
 }
 
 #footer-newsletter1 input[type="submit"] {
@@ -453,8 +457,6 @@ you work on and the intended audience */
 
 #footer-social {
 	grid-column: 11/-1;
-	/* Remove as content will dictate height */
-	height: 80px;
 }
 
 #footer-social ul {
@@ -470,6 +472,8 @@ you work on and the intended audience */
 	
 
 /* gallery page */
+
+/* --- 9. Hero --- */ 
 
 #gallery-hero-con {
 	background: url("../images/hero_gal_desktop.jpg");
@@ -500,7 +504,7 @@ you work on and the intended audience */
 }
 
 #gallery-controls {
-	margin-top: 200px;
+	margin-top: 100px;
 	grid-column: 6/8;
 	display: flex;
 	justify-content: center;
@@ -508,16 +512,19 @@ you work on and the intended audience */
 }
 
 .dot {
-	background-color: #dddddd;
+	background-color:#F69A9A;
 	height: 30px;
 	width: 30px;
 	border-radius: 50%;
 	margin: 5px;
   }
 
+  /* --- 10. Collection --- */ 
+
 #gallery h2 {
 	grid-column: 1/-1;
 	text-align: center;
+	margin-top: 40px;
   }
 
 .gallery-box {

@@ -2,74 +2,103 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Web Page</title>
+<title>Book Worm Cafe - Mobile</title>
 <link href="css/main-mobile.css" rel="stylesheet" type="text/css">
 </head>
 <!-- students must convert divs to semantic tags -->
 <body>
+    <h1 class="hidden">Book Worm Cafe</h1>
 	<div id="container">
         
         <div id="header-con">
-            <div id="main-header" class="grid-con">
-                <img src="https://via.placeholder.com/186x80" alt="image" id="header-logo">
-                 <div id="mobile-nav">
+            <header id="main-header" class="grid-con">
+                <img src="images/idsardi_callidora_logo_final.svg" alt="Book Worm Cafe Logo" id="header-logo">
+                 <nav id="mobile-nav">
                     <span class="burger"></span>
                     <span class="burger"></span>
                     <span class="burger"></span>
-                 </div>
-            </div>    
+                 </nav>
+            </header>  
         </div> 
 
         <main>
             <div id="hero-con">
                 <div class="grid-con">
-                    <div id="hero-text" class="box-color">
-                    </div>
+                    <section id="hero-text">
+                    <h2>Discover New Worlds...</h2>
+                    </section>
                 </div>
             </div>
 
-            <div id="image-slider-con">
-                <h2>Blandit At Tuctor</h2>
-                <img src="https://via.placeholder.com/428x240" alt="image">
+            <section id="image-slider-con">
+                <h2>Cozy Reads</h2>
+                <img src="images/poetry_hm_mobile.jpg" alt="Collection of Poetry">
                 <!-- ascii symbols for <> -->
                 <span id="mobile-slider-left">&#60</span>
                 <span id="mobile-slider-right">&#62</span>
-            </div>
+                <p><b>Rupi Kaur</b>, and many other talented poets are featured this month! Check them all out. </p>
+            </section>
 
-            <div id="about-us-con">
-                <h2>Blandit At Tuctor</h2>   
+            <section id="about-us-con">
+                <h2>Books of The Month</h2>   
                     <div id="about-us-text-con">     
                         <div class="grid-con">
-                            <div id="about-us-text" class="box-color">
-                            </div>
+                            <section id="about-us-text" class="box-color">
+                                <h3>Remember, it's only a game...</h3>
+                                <p>
+                                    Join two sisters as they have a once-in-a-life-time opportunity to see Caraval, a performance where the audience participates in the show.  Everything that happens in Caraval is only an elaborate performance...</p>
+                            </section>
                         </div>      
                     </div>  
-                    <div class="grid-con" id="about-us-photos">
-                        <img src="https://via.placeholder.com/350x350" alt="image" class="about-us-photo">
-                        <img src="https://via.placeholder.com/350x350" alt="image" class="about-us-photo">
-                        <img src="https://via.placeholder.com/350x350" alt="image" class="about-us-photo">
-                        <img src="https://via.placeholder.com/350x350" alt="image" class="about-us-photo">
-                    </div>         
-            </div>
+                    
+                    <section class="grid-con" id="about-us-photos">
+                        <h3 class="hidden">Caraval Image Collage</h3>
+                        <img src="images/caraval_hm_mobile.png" alt="Caraval Book Cover" class="about-us-photo">
+                        <img src="images/ferris_hm_mobile.png" alt="Ferris Wheel" class="about-us-photo">
+                        <img src="images/circus_hm_mobile.png" alt="Circus Stage" class="about-us-photo">
+                        <img src="images/treasure_hm_mobile.png" alt="Treasure Chest" class="about-us-photo">
+                    </section>         
+           </section>
 
             <div id="contact-us-con">
                 <div class="grid-con">
-                    <div id="contact-text" class="box-color">
-                    </div>
-                    <div id="contact-form" class="box-color">
-                    </div>
+                    <section id="contact-text" class="box-color">
+                        <h2>Join Our Monthly Book Club!</h2>
+                        <p>Every month we pick a new book based off of popular suggestions. Feel free to sign up and suggest a new book or two! Signing up enables you to receive exclusive newsletters, contests, and more! Join right now and get reading!</p>
+                    </section>
+
+                    <form id="contact-form" class="box-color" action="email.php" method="POST" enctype="text/plain">
+                            <input name="fullname" type="text" placeholder="Full Name">
+                            <input name="email" type="text" required placeholder="Email">
+                            <input name="phone" type="text" required placeholder="Phone #">
+                            <textarea name="suggestions" placeholder="Enter Your Book of The Month Suggestions Here..."></textarea>
+                            <input class= "submit-bookclub" name="submit" type="submit" value="Sign Up">
+                    </form>
                 </div>
             </div>
         </main>
 
-        <div id="footer-con">
+        <footer id="footer-con">
             <div class="grid-con">
                 <div id="footer-box">
-                </div>
-                <div id="footer-newsletter">
+                    <section id="footer-newsletter1">
+                        <h3>Join our Newsletter! - Sign-up</h3>
+                        <form action="email.php" method="POST" enctype="text/plain">
+                            <input name="email" type="text" required placeholder="Email">
+                            <input id="footer-submit" name="submit" type="submit" value="Sign Up">
+                        </form>
+                    </section>
+                    <section id="footer-social">
+                        <h3 class="hidden">Social Media Links</h3>
+                        <ul>
+                            <li><a href="#"><img src="images/twitter_icon.svg" alt="twitter icon"></a><li> 
+                            <li><a href="#"><img src="images/instagram_icon.svg" alt="instagram icon"></a><li> 
+                            <li><a href="#"><img src="images/facebook_icon.svg" alt="facebook icon"></a><li> 
+                        </ul>
+                    </section>
                 </div>
             </div>
-        </div>
+        </footer>
 
     </div>
 </body>
