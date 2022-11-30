@@ -2,30 +2,40 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Web Page</title>
+<title>Book Worm Cafe Gallery</title>
 <link href="css/main.css" rel="stylesheet" type="text/css">
 </head>
-<!-- students must convert divs to semantic tags -->
+
 <body>
+    <h1 class="hidden">Book Worm Cafe Gallery</h1>
 	<div id="container">
-        
-        <div id="header-con">
+        <header id="header-con">
             <div id="main-header" class="grid-con">
-                <div id="header-box1" class="box-color">
+                <div id="logo">
+                    <img src="images/idsardi_callidora_logo_final.svg" alt="Book Worm Cafe logo">
                 </div>
-                <div id="main-nav" class="box-color">
-                </div>
-                <div id="header-box2" class="box-color">
-                </div>
+                <nav id="main-nav">
+                    <h2 class="hidden">Main Navigation</h2>
+                    <ul>
+                        <li><a href="index.html">Home</a></li> 
+                        <li><a href="#">Our Story</a></li>
+                        <li><a href="gallery.html">Collections</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Signin/Register</a></li>
+                    </ul>
+                </nav>
+                <a id="book-club-top" href="#">
+                <h3>My Wish-list <img src="images/coffee_icon.svg" id="coffee-header"></h3></a>
             </div>
-        </div> 
+        </header> 
 
         <main>
-
             <div id="gallery-hero-con">
                 <div class="grid-con">
-                    <div id="gallery-text" class="box-color">
-                    </div>
+                    <section id="gallery-text">
+                         <h2> Discover New Worlds</h2>
+                         <p> Everyday is an new opportunity to discover your future favourite book. We have hundreds of novels, reviewed by hundreds of readers just like you! Feel free to explore our featured novels, create a review yourself, and connect with like-minded readers here, all in one place. Read reviews, create your own review or add to your reading wish-list. </p>
+                    </section>
                     <div id="gallery-controls">
                         <span class="dot"></span>
                         <span class="dot"></span>
@@ -34,71 +44,195 @@
                 </div>
             </div>
      
-            <div class="grid-con" id="gallery">
-                <h2>Blandit At Tuctor</h2>
-                <div class="gallery-box">
-                    <img src="https://via.placeholder.com/536x242" alt="image">
-                </div>
-                <div class="gallery-box">
-                    <img src="https://via.placeholder.com/536x242" alt="image">
-                </div>
-                <div class="gallery-box">
-                    <img src="https://via.placeholder.com/536x242" alt="image">
-                </div>
-                <div class="gallery-box">
-                    <img src="https://via.placeholder.com/536x242" alt="image">
-                </div>
-                <div class="gallery-box">
-                    <img src="https://via.placeholder.com/536x242" alt="image">
-                </div>
-                <div class="gallery-box">
-                    <img src="https://via.placeholder.com/536x242" alt="image">
-                </div>
-                <div class="gallery-box">
-                    <img src="https://via.placeholder.com/536x242" alt="image">
-                </div>
-                <div class="gallery-box">
-                    <img src="https://via.placeholder.com/536x242" alt="image">
-                </div>
-                <div class="gallery-box">
-                    <img src="https://via.placeholder.com/536x242" alt="image">
-                </div>
-                <div class="gallery-box">
-                    <img src="https://via.placeholder.com/536x242" alt="image">
-                </div>
-                <div class="gallery-box">
-                    <img src="https://via.placeholder.com/536x242" alt="image">
-                </div>
-                <div class="gallery-box">
-                    <img src="https://via.placeholder.com/536x242" alt="image">
-                </div>
-                <div class="gallery-box">
-                    <img src="https://via.placeholder.com/536x242" alt="image">
-                </div>
-                <div class="gallery-box">
-                    <img src="https://via.placeholder.com/536x242" alt="image">
-                </div>
-                <div class="gallery-box">
-                    <img src="https://via.placeholder.com/536x242" alt="image">
-                </div>
-            </div>         
+            <section class="grid-con" id="gallery">
+                <h2>Collections</h2>
+                <section class="gallery-box">
+                    <img src="images/caraval_spread_gal_desktop.png" alt="Caraval Collection">
+                    <h3><b>Caraval Collection</b></h3>
+                    <ul>
+                        <li><a href="#">Rate<img src="images/star_icon.svg" class="star-icon"></a></li> 
+                        <li><a href="#">Reviews</a></li>
+                        <li><a href="#"><span><b>+ Wish-list</b></span></a></li>
+                    </ul>
+                    <p>Join Jude and her sister as they are whisked away inside of a dangerous carnival with odd practices. </p>
+                </section>
+                <section class="gallery-box">
+                    <img src="images/twilight_front_gal_desktop.png" alt="Twilight Collection">
+                    <h3><b>Twilight</b></h3>
+                    <ul>
+                        <li><a href="#">Rate<img src="images/star_icon.svg" class="star-icon"></a></li> 
+                        <li><a href="#">Reviews</a></li>
+                        <li><a href="#"><span><b>+ Wish-list</b></span></a></li>
+                    </ul>
+                    <p>Classic story about girl meets mysterious vampire upon arriving to a new school in a small town.</p>
+                </section>
+                <section class="gallery-box">
+                    <img src="images/kaur_gal_desktop.png" alt="Kaur Poetry Collection">
+                    <h3><b>Rupi Kaur Collection</b></h3>
+                    <ul>
+                        <li><a href="#">Rate<img src="images/star_icon.svg" class="star-icon"></a></li> 
+                        <li><a href="#">Reviews</a></li>
+                        <li><a href="#"><span><b>+ Wish-list</b></span></a></li>
+                    </ul>
+                    <p>Read Rupi Kaur classics: Home Body, Milk & Honey and The Sun and Her Flowers.</p>
+                </section>
+                <section class="gallery-box">
+                    <img src="images/shatter_gal_desktop.png" alt="Shatter Me Series">
+                    <h3><b>Shadow & Bone Series </b></h3>
+                    <ul>
+                        <li><a href="#">Rate<img src="images/star_icon.svg" class="star-icon"></a></li> 
+                        <li><a href="#">Reviews</a></li>
+                        <li><a href="#"><span><b>+ Wish-list</b></span></a></li>
+                    </ul>
+                    <p>In a world full of humans with magical abilities, Clara discovers she's not as mundane as she thought she was. </p>
+                </section>
+                <section class="gallery-box">
+                    <img src="images/faire_spread_gal_desktop.png" alt="Harrow Faire Collection">
+                    <h3><b>Harrow Faire Series</b></h3>
+                    <ul>
+                        <li><a href="#">Rate<img src="images/star_icon.svg" class="star-icon"></a></li> 
+                        <li><a href="#">Reviews</a></li>
+                        <li><a href="#"><span><b>+ Wish-list</b></span></a></li>
+                    </ul>
+                    <p>Welcome to the Harrow Faire - where nightmares really do come true...</p>
+                </section>
+                <section class="gallery-box">
+                    <img src="images/shatter_gal_desktop.png" alt="Shatter Me Collection">
+                    <h3><b>Shatter Me Series</b></h3>
+                    <ul>
+                        <li><a href="#">Rate<img src="images/star_icon.svg" class="star-icon"></a></li> 
+                        <li><a href="#">Reviews</a></li>
+                        <li><a href="#"><span><b>+ Wish-list</b></span></a></li>
+                    </ul>
+                    <p>Set in a dystopian world where people with special abilities are feared, locked away, and experimented on.</p>
+                </section>
+                <section class="gallery-box">
+                    <img src="images/cruel_gal_desktop.png" alt="Cruel Prince Series">
+                    <h3><b>Cruel Prince Series</b></h3>
+                    <ul>
+                        <li><a href="#">Rate<img src="images/star_icon.svg" class="star-icon"></a></li> 
+                        <li><a href="#">Reviews</a></li>
+                        <li><a href="#"><span><b>+ Wish-list</b></span></a></li>
+                    </ul>
+                    <p>The Cruel Prince Collection by Holly Black. Jude is left to be the mortal queen in a dangerous fairyland.</p>
+                </section>
+
+                <section class="gallery-box">
+                    <img src="images/acotar_gal_desktop.png" alt="A Throne Of Thorns And Roses Collection">
+                    <h3><b>ACOTAR Seriess</b></h3>
+                    <ul>
+                        <li><a href="#">Rate<img src="images/star_icon.svg" class="star-icon"></a></li> 
+                        <li><a href="#">Reviews</a></li>
+                        <li><a href="#"><span><b>+ Wish-list</b></span></a></li>
+                    </ul>
+                    <p>Humans vs. Fae World - what happens when a human dares to break a ancient-fae rule?</p>
+                </section>
+                <section class="gallery-box">
+                    <img src="images/city_gal_desktop.png" alt="City of Bones Collection">
+                    <h3><b>City of Bones Series </b></h3>
+                    <ul>
+                        <li><a href="#">Rate<img src="images/star_icon.svg" class="star-icon"></a></li> 
+                        <li><a href="#">Reviews</a></li>
+                        <li><a href="#"><span><b>+ Wish-list</b></span></a></li>
+                    </ul>
+                    <p>Clary starts seeing things she's not supposed to.</p> 
+                </section>
+                <section class="gallery-box">
+                    <img src="images/broken_gal_desktop.png" alt="Composition of The Broken Book">
+                    <h3><b>Comp. Of Broken </b></h3>
+                    <ul>
+                        <li><a href="#">Rate<img src="images/star_icon.svg" class="star-icon"></a></li> 
+                        <li><a href="#">Reviews</a></li>
+                        <li><a href="#"><span><b>+ Wish-list</b></span></a></li>
+                    </ul>
+                    <p>Read the latest up-and-coming poetry book: a beautiful composition of broken by  R.H Sin.</p>
+                </section>
+                <section class="gallery-box">
+                    <img src="images/caraval_hardcover_gal_desktop.jpg" alt="Caraval Hardcover Series">
+                    <h3><b>Caraval Hard Cover</b></h3>
+                    <ul>
+                        <li><a href="#">Rate<img src="images/star_icon.svg" class="star-icon"></a></li> 
+                        <li><a href="#">Reviews</a></li>
+                        <li><a href="#"><span><b>+ Wish-list</b></span></a></li>
+                    </ul>
+                    <p>An exclusive hard-cover collection of the featured Caraval Series with special additions and chapters.</p>
+                </section>
+                <section class="gallery-box">
+                    <img src="images/atwood_gal_desktop.png" alt="Margaret Atwood: Dearly">
+                    <h3><b>Margaret Atwood: Dearly</b></h3>
+                    <ul>
+                        <li><a href="#">Rate<img src="images/star_icon.svg" class="star-icon"></a></li> 
+                        <li><a href="#">Reviews</a></li>
+                        <li><a href="#"><span><b>+ Wish-list</b></span></a></li>
+                    </ul>
+                    <p>Sky-rocketing reviews for Margaret Atwood's "Dearly" poetry.</p>
+                </section>
+                <section class="gallery-box">
+                    <img src="images/violent_gal_desktop.png" alt="These Violent Delights Book">
+                    <h3><b>These Violent Delights</b></h3>
+                    <ul>
+                        <li><a href="#">Rate<img src="images/star_icon.svg" class="star-icon"></a></li>
+                        <li><a href="#">Reviews</a></li>
+                        <li><a href="#"><span><b>+ Wish-list</b></span></a></li>
+                    </ul>
+                    <p>Romeo and Juliet inspired novel about two crime families vying for supremacy.</p>
+                </section>
+                <section class="gallery-box">
+                    <img src="images/greekmyth_gal_desktop.png" alt="Greek Mythology Book">
+                    <h3><b>Greek Mythology</b></h3>
+                    <ul>
+                        <li><a href="#">Rate<img src="images/star_icon.svg" class="star-icon"></a></li> 
+                        <li><a href="#">Reviews</a></li>
+                        <li><a href="#"><span><b>+ Wish-list</b></span></a></li>
+                    </ul>
+                    <p>Everything you need to know about Greek Mythology. Top-rated educational novel. <p>
+                </section>
+                <section class="gallery-box">
+                    <img src="images/archilles_gal_desktop.png" alt="Song Of Achillies Book">
+                    <h3><b>Song Of Achillies </b></h3>
+                    <ul>
+                        <li><a href="#">Rate<img src="images/star_icon.svg" class="star-icon"></a></li>
+                        <li><a href="#">Reviews</a></li>
+                        <li><a href="#"><span><b>+ Wish-list</b></span></a></li>
+                    </ul>
+                    <p>Retelling of historical Greek mythology stories involving Patroclus and Achilles. </p>
+                </section>
+            </section>         
         </main>
 
-        <div id="footer-con">
+        <footer id="footer-con">
             <div class="grid-con" id="footer">
-                <div id="footer-logo" class="box-color">
+                <div id="logo">
+                    <img src="images/idsardi_callidora_logo_final.svg" id="footer-logo" alt="Book Worm Cafe logo">
                 </div>
-                <div id="footer-nav" class="box-color">
-                </div>
-                <div id="footer-newsletter1" class="box-color">
-                </div>
-                <div id="footer-newsletter2" class="box-color">
-                </div>
-                <div id="footer-social" class="box-color">
+                <nav id="footer-nav" class="box-color">
+                    <h2 class="hidden">Main Footer Navigation</h2>
+                        <ul>
+                            <li><a href="index.html">Home</a></li> 
+                            <li><a href="#">Our Story</a></li>
+                            <li><a href="gallery.html">Collections</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Signin/Register</a></li>
+                            <li><a href="#"><b>My Wish-list</b></a></li>
+                        </ul>
+                     </nav>>
+                    <section id="footer-newsletter1">
+                        <h3>Join our Newsletter! - Sign-up</h3>
+                        <form action="email.php" method="POST" enctype="text/plain">
+                            <input name="email" type="text" required placeholder="Email">
+                            <input id="footer-submit" name="submit" type="submit" value="Sign Up">
+                        </form>
+                    </section>
+                    <section id="footer-social">
+                        <h3 class="hidden">Social Media Links</h3>
+                        <ul>
+                            <li><a href="#"><img src="images/twitter_icon.svg" alt="twitter icon"></a><li> 
+                            <li><a href="#"><img src="images/instagram_icon.svg" alt="instagram icon"></a><li> 
+                            <li><a href="#"><img src="images/facebook_icon.svg" alt="facebook icon"></a><li> 
+                        </ul>
+                    </section>
                 </div>
             </div>
-        </div>
-
     </div><!--end container-->  
 </body>
 </html>
