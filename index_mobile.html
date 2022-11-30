@@ -13,7 +13,7 @@
         <div id="header-con">
             <header id="main-header" class="grid-con">
                 <img src="images/idsardi_callidora_logo_final.svg" alt="Book Worm Cafe Logo" id="header-logo">
-                 <nav id="mobile-nav">
+                 <nav class="mobile-nav">
                     <span class="burger"></span>
                     <span class="burger"></span>
                     <span class="burger"></span>
@@ -25,26 +25,30 @@
             <div id="hero-con">
                 <div class="grid-con">
                     <section id="hero-text">
-                    <h2>Discover New Worlds...</h2>
+                    <h2><a href="#">Our New Arrivals</a></h2>
+                    <p>
+                        Welcome to the Book Worm Café, where you can read and rate the latest up-coming novels and find your next favourite author! For the special month of October, we have a variety of featured cozy fall readings that we know you'll enjoy. </p>
                     </section>
                 </div>
             </div>
 
             <section id="image-slider-con">
-                <h2>Cozy Reads</h2>
+                <img src="images/coffee_icon.svg" class="coffee-icon" alt="coffee icon">
+                <h2><a href="#">Cozy Reads</a></h2>
                 <img src="images/poetry_hm_mobile.jpg" alt="Collection of Poetry">
                 <!-- ascii symbols for <> -->
-                <span id="mobile-slider-left">&#60</span>
-                <span id="mobile-slider-right">&#62</span>
-                <p><b>Rupi Kaur</b>, and many other talented poets are featured this month! Check them all out. </p>
+                <span id="mobile-slider-left"><a href="#">&#60</a></span>
+                <span id="mobile-slider-right"><a href="#">&#62</a></span>
+                <p><b>Rupi Kaur</b>, and many other talented poets are featured this month! <a href="#">Check them all out</a></p>
             </section>
-
+           
             <section id="about-us-con">
-                <h2>Books of The Month</h2>   
+                <img src="images/coffee_icon.svg" class="coffee-icon" alt="coffee icon">
+                <h2><a href="#">Book of The Month</a></h2>  
                     <div id="about-us-text-con">     
                         <div class="grid-con">
-                            <section id="about-us-text" class="box-color">
-                                <h3>Remember, it's only a game...</h3>
+                            <section id="about-us-text">
+                                <h3><em>Remember, it's only a game...</em></h3>
                                 <p>
                                     Join two sisters as they have a once-in-a-life-time opportunity to see Caraval, a performance where the audience participates in the show.  Everything that happens in Caraval is only an elaborate performance...</p>
                             </section>
@@ -57,12 +61,13 @@
                         <img src="images/ferris_hm_mobile.png" alt="Ferris Wheel" class="about-us-photo">
                         <img src="images/circus_hm_mobile.png" alt="Circus Stage" class="about-us-photo">
                         <img src="images/treasure_hm_mobile.png" alt="Treasure Chest" class="about-us-photo">
+                        <img src="images/coffee_icon.svg" id="coffee-icon-about" alt="coffee icon">
                     </section>         
            </section>
 
             <div id="contact-us-con">
                 <div class="grid-con">
-                    <section id="contact-text" class="box-color">
+                    <section id="contact-text">
                         <h2>Join Our Monthly Book Club!</h2>
                         <p>Every month we pick a new book based off of popular suggestions. Feel free to sign up and suggest a new book or two! Signing up enables you to receive exclusive newsletters, contests, and more! Join right now and get reading!</p>
                     </section>
@@ -81,13 +86,16 @@
         <footer id="footer-con">
             <div class="grid-con">
                 <div id="footer-box">
-                    <section id="footer-newsletter1">
-                        <h3>Join our Newsletter! - Sign-up</h3>
-                        <form action="email.php" method="POST" enctype="text/plain">
-                            <input name="email" type="text" required placeholder="Email">
-                            <input id="footer-submit" name="submit" type="submit" value="Sign Up">
+                    <img src="images/idsardi_callidora_logo_final.svg" id="footer-logo" alt="Book Worm Cafe logo">
+                </div>
+                <section id="footer-newsletter1">
+                    <h3>Join our Newsletter! - Sign-up</h3>
+                    <form action="email.php" method="POST" enctype="text/plain">
+                        <input id="footer-email" name="email" type="text" required placeholder="Email">
+                        <input id="footer-submit" name="submit" type="submit" value="Sign Up">
                         </form>
-                    </section>
+                </section>
+
                     <section id="footer-social">
                         <h3 class="hidden">Social Media Links</h3>
                         <ul>
@@ -96,7 +104,6 @@
                             <li><a href="#"><img src="images/facebook_icon.svg" alt="facebook icon"></a><li> 
                         </ul>
                     </section>
-                </div>
             </div>
         </footer>
 
