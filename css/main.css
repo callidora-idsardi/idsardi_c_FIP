@@ -139,12 +139,11 @@ you work on and the intended audience */
 }
 
 
-#logo {
+.logo {
 	grid-column: 1/4;
 	height: 80px;
 	padding-right: 30px;
 	padding-top: 15px; 
-
 }
 
 #main-nav {
