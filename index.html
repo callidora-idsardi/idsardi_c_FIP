@@ -10,9 +10,10 @@
 	<div id="container">
         <header id="header-con">
             <div id="main-header" class="grid-con">
-                <div id="logo">
+                <div class="logo">
                     <img src="images/idsardi_callidora_logo_final.svg" alt="Book worm cafe">
                 </div>
+
                 <nav id="main-nav">
                     <h2 class="hidden">Main Navigation</h2>
                     <ul>
@@ -26,9 +27,9 @@
                 <a id="book-club-top" href="#">
                 <h3>My Wish-list <img src="images/coffee_icon.svg" id="coffee-header" alt="coffee icon"></h3></a>
             </div>
-        </header> 
+         </header> 
 
-        <main>
+         <main>
             <div class="grid-con" id="hero">
 
                 <section id="hero-text">
@@ -91,28 +92,28 @@
             </div>
            </section>
 
-           <section class="grid-con" id="contact">
-            <section id="contact-text">
-                <h2>Join Our Monthly Book Club</h2>
-                <p>Every month we pick a new book based off of popular suggestions. Feel free to sign up and suggest a new book or two! Signing up enables you to write reviews, comment on reviews, add books to your reading wish-list, receive exclusive newsletters, contests, and more! Join right now and get reading! </p>
-            </section>
-            <section id="contact-form" class="box-color">
-                <form id="contact-form-details" action="email.php" method="POST" enctype="text/plain">
-                    <input name="fullname" type="text" placeholder="Full Name">
-                    <input name="email" type="text" required placeholder="Email">
-                    <input name="phone" type="text" required placeholder="Phone #">
-                    <textarea name="suggestions" placeholder="Enter Your Book of The Month Suggestions Here..."></textarea>
-                    <input class= "submit-bookclub" name="submit" type="submit" value="Sign Up">
-                </form>
-            </section>
-        </section> 
+            <div class="grid-con" id="contact">
+               <section id="contact-text">
+                  <h2>Join Our Monthly Book Club</h2>
+                  <p>Every month we pick a new book based off of popular suggestions. Feel free to sign up and suggest a new book or two! Signing up enables you to write reviews, comment on reviews, add books to your reading wish-list, receive exclusive newsletters, contests, and more! Join right now and get reading! </p>
+               </section>
+               <div id="contact-form" class="box-color">
+                  <form id="contact-form-details" action="email.php" method="POST" enctype="text/plain">
+                       <input name="fullname" type="text" placeholder="Full Name">
+                       <input name="email" type="text" required placeholder="Email">
+                       <input name="phone" type="text" required placeholder="Phone #">
+                       <textarea name="suggestions" placeholder="Enter Your Book of The Month Suggestions Here..."></textarea>
+                       <input class= "submit-bookclub" name="submit" type="submit" value="Sign Up">
+                   </form>
+               </div>
+            </div>
            
 
-        </main>
+         </main>
 
-        <footer id="footer-con">
+         <footer id="footer-con">
             <div class="grid-con" id="footer">
-                <div id="logo">
+                <div class="logo">
                     <img src="images/idsardi_callidora_logo_final.svg" id="footer-logo" alt="Book Worm Cafe logo">
                 </div>
                 <nav id="footer-nav" class="box-color">
@@ -125,24 +126,25 @@
                             <li><a href="#">Signin/Register</a></li>
                             <li><a href="#"><b>My Wish-list</b></a></li>
                         </ul>
-                     </nav>>
-                    <section id="footer-newsletter1">
-                        <h3>Join our Newsletter! - Sign-up</h3>
-                        <form action="email.php" method="POST" enctype="text/plain">
-                            <input name="email" type="text" required placeholder="Email">
-                            <input id="footer-submit" name="submit" type="submit" value="Sign Up">
-                        </form>
-                    </section>
-                    <section id="footer-social">
-                        <h3 class="hidden">Social Media Links</h3>
-                        <ul>
-                            <li><a href="#"><img src="images/twitter_icon.svg" alt="twitter icon"></a><li> 
-                            <li><a href="#"><img src="images/instagram_icon.svg" alt="instagram icon"></a><li> 
-                            <li><a href="#"><img src="images/facebook_icon.svg" alt="facebook icon"></a><li> 
-                        </ul>
-                    </section>
-                </div>
+                </nav>
+                <section id="footer-newsletter1">
+                    <h3>Join our Newsletter! - Sign-up</h3>
+                    <form action="email.php" method="POST" enctype="text/plain">
+                        <input name="email" type="text" required placeholder="Email">
+                        <input id="footer-submit" name="submit" type="submit" value="Sign Up">
+                    </form>
+                </section>
+                <section id="footer-social">
+                    <h3 class="hidden">Social Media Links</h3>
+                    <ul>
+                        <li><a href="#"><img src="images/twitter_icon.svg" alt="twitter icon"></a><li> 
+                        <li><a href="#"><img src="images/instagram_icon.svg" alt="instagram icon"></a><li> 
+                        <li><a href="#"><img src="images/facebook_icon.svg" alt="facebook icon"></a><li> 
+                    </ul>
+                </section>
             </div>
-        </footer> 
-    </body>
+        </footer>
+
+    </div><!--end container-->  
+</body>
 </html>
