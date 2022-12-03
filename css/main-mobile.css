@@ -22,7 +22,6 @@ Gallery Page
 
 h2 {
 	font-size: 30px;
-	color: #73624B;
 }
 
 h2 a {
@@ -44,7 +43,11 @@ h3 {
 p {
 	font-size: 20px;
 	line-height: 35px;
-	color: #73624B;
+	color:#5F4E39; 
+}
+
+h2 {
+	color: #5F4E39;
 }
 
 .box-color {
@@ -137,6 +140,7 @@ you work on and the intended audience, we may go as low as 320px */
 	background-color:#C7C8A9;
 	display: block;
 	margin-bottom: 10px;
+	cursor: pointer;
 }
 
 nav.mobile-nav:hover .burger {
@@ -161,6 +165,9 @@ nav.mobile-nav:hover .burger {
 	margin-top: 20px;
 }
 
+#hero-text p{
+	color: #73624b;
+}
 /* --- 5. Cozy Fall Choices --- */
 
 #image-slider-con {
@@ -408,9 +415,11 @@ nav.mobile-nav:hover .burger {
 
 #hero-gallery-text {
 	grid-column: 1/-1;
-	/* Remove as content will dictate height */
-	height: 350px;
 	margin-top: 20px;
+	background-color: #dedfd794;
+	padding: 40px;
+	border-radius: 40px;
+	font-weight: bold;
 }
 
 #gallery-controls {
@@ -418,11 +427,11 @@ nav.mobile-nav:hover .burger {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-top: 20px;
+	margin-top: 80px;
 }
 
 .dot {
-	background-color: #dddddd;
+	background-color:#F69A9A;
 	height: 30px;
 	width: 30px;
 	border-radius: 50%;
@@ -449,9 +458,31 @@ nav.mobile-nav:hover .burger {
 	text-align: center;
 }
 
+.gallery-box p {
+	font-size: 20px;
+	margin: 56px;
+	margin-top: 0;
+	color: #73624B;
+}
+
 .gallery-box ul li {
     display: inline;
 }
+
+.gallery-box ul li a {
+	color:#73624B;
+	margin: 10px;
+}
+
+.gallery-box ul li a > span {
+	color: #6B8E7E;
+}
+
+.gallery-box ul li a:hover {
+	border-bottom: #6b8e7eac 3px solid;
+    color:#6B8E7E;
+}
+
 
 .gallery-box ul {
 	list-style: none;
@@ -464,4 +495,10 @@ nav.mobile-nav:hover .burger {
 	height:40px;
 	grid-column: 1/3;
 	background-color: #ddd;
+}
+
+.star-icon {
+	padding-left: 5px;
+	height: 20px;
+	width: 20px;
 }

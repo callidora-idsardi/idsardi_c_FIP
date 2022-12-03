@@ -169,7 +169,7 @@ you work on and the intended audience */
 }
 
 #main-nav ul li a:hover {
-    border-bottom: 5px solid #F69A9A;
+    border-bottom: 5px solid #f69a9a3c;
     padding-bottom: 8px;
 }
 
@@ -177,11 +177,18 @@ you work on and the intended audience */
 	grid-column: 11/-1;
 }
 
+#book-club-top h3:hover {
+	border: 3px solid #f69a9a50;
+	border-radius: 6px;
+	padding: 3px;
+}
+
 #coffee-header {
 	margin-top: 1.4px;
 	margin-left: 20px;
 
 }
+
 
 /* 4. ---Main Hero Image--- */
 
@@ -204,7 +211,7 @@ you work on and the intended audience */
 #hero-image {
 	grid-column: 8/-1;
 	margin-bottom: 0px;
-	box-shadow: 7px 5px 5px 5px rgba(81, 78, 78, 0.432);
+	box-shadow: 5px 4px 4px 4px rgba(81, 78, 78, 0.432);
 
 }
 
@@ -280,8 +287,7 @@ you work on and the intended audience */
 #about-con {
 	padding-top: 10px;
 	padding-bottom: 10px;
-	border-bottom: 5px solid #f69a9a5d;
-	border-top: 5px solid #f69a9a5d;
+	background-color: #F7ECE5;
 }
 
 #about-title {
@@ -353,6 +359,7 @@ you work on and the intended audience */
 	font-size: 28px;
 	margin-left: 40px;
 	margin-right: 40px;
+	margin-top: 10px;
 	color: #95735E;
 }
 
@@ -420,7 +427,7 @@ you work on and the intended audience */
 }
 
 #footer ul li a:hover {
-    border-bottom: 5px solid #F69A9A;
+    border-bottom: 5px solid #f69a9a3c;
     padding-bottom: 8px;
 }
 #footer-newsletter1 {
@@ -584,6 +591,11 @@ you work on and the intended audience */
 
 .gallery-box ul li a:hover {
     color:#6B8E7E;
-    padding-bottom: 8px;
 }
 
+
+.gallery-box ul li a > span:hover {
+	border: 3px solid #f69a9a50;
+	border-radius: 6px;
+	padding: 3px;
+}
