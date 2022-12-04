@@ -31,7 +31,6 @@
 
          <main>
             <div class="grid-con" id="hero">
-
                 <section id="hero-text">
                     <h2>Our New Arrivals</h2>
                     <p>Welcome to the Book Worm Café, where you can read and rate the latest up-coming novels and find your next favourite author! For the special month of October, we have a variety of featured cozy fall readings that we know you'll enjoy.</p>
@@ -79,11 +78,11 @@
              <h2 id="about-title">Books of The Month: The Caraval Series</h2>
              <div id="about-con">
                  <div class="grid-con" id="about">
-                      <article id="about-text">
-                        <h3 id="about-subtitle"><em>Remember, it's only a game...</em></h3>
-                        <p id="about-paragraph">
+                      <section id="about-text">
+                         <h3 id="about-subtitle"><em>Remember, it's only a game...</em></h3>
+                         <p id="about-paragraph">
                             Join two sisters as they have a once-in-a-life-time opportunity to see Caraval, a performance where the audience participates in the show.  Everything that happens in Caraval is only an elaborate performance...</p>
-                      </article>
+                      </section>
                       <img src="images/caraval_pictures_desktop.png" alt="image" id="about-image">
                       <a class="button article-button" href="#">
                         <h3>Read More</h3>
@@ -97,7 +96,9 @@
                   <h2>Join Our Monthly Book Club</h2>
                   <p>Every month we pick a new book based off of popular suggestions. Feel free to sign up and suggest a new book or two! Signing up enables you to write reviews, comment on reviews, add books to your reading wish-list, receive exclusive newsletters, contests, and more! Join right now and get reading! </p>
                </section>
-               <div id="contact-form" class="box-color">
+
+               <section id="contact-form" class="box-color">
+                   <h2 class="hidden">Book Club Signup Form</h2>
                   <form id="contact-form-details" action="email.php" method="POST" enctype="text/plain">
                        <input name="fullname" type="text" placeholder="Full Name">
                        <input name="email" type="text" required placeholder="Email">
@@ -105,8 +106,8 @@
                        <br>
                        <textarea name="suggestions" placeholder="Enter Your Book of The Month Suggestions Here..."></textarea>
                        <input class= "submit-bookclub" name="submit" type="submit" value="Sign Up">
-                   </form>
-               </div>
+                  </form>
+                </section>
             </div>
            
 
@@ -146,6 +147,6 @@
             </div>
         </footer>
 
-    </div><!--end container-->  
+    </div>
 </body>
 </html>

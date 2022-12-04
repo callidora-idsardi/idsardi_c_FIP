@@ -172,8 +172,6 @@ nav.mobile-nav:hover .burger {
 
 #image-slider-con {
 	background-color:#F7ECE5;
-	/* Remove as content will dictate height */
-	height: 640px;
 	position: relative;
 }
 
@@ -449,8 +447,6 @@ nav.mobile-nav:hover .burger {
 .gallery-box {
 	grid-column: 1/-1;
 	background-color: #F7ECE5;
-	/* Remove as content will dictate height */
-	height: 507px;
 	margin-bottom: 20px;
 }
 
