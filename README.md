@@ -27,6 +27,3 @@ Ferris Wheel: Photo by <a href="https://unsplash.com/@helloimnik?utm_source=unsp
 Treasure Chest: Photo by <a href="https://unsplash.com/@iamromankraft?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Roman Kraft</a> on <a href="https://unsplash.com/s/photos/treasure-chest?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 Circus: Photo by <a href="https://unsplash.com/@cys_escapes?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Cyrus Crossan</a> on <a href="https://unsplash.com/s/photos/circus?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
-## License
-MIT License 
