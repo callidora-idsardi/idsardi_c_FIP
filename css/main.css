@@ -484,6 +484,33 @@ you work on and the intended audience */
 
 /* --- 9. Hero --- */ 
 
+.search {
+	grid-column: 9/-1;
+}
+
+.search .search-collection {
+	position: relative;
+	left: 3em;
+	border: none;
+	border-radius:  5px;
+	font: inherit;
+	font-size: 30px;
+	color: #95735E;
+	margin-top: 53px;
+	padding: 10px;
+	}
+
+#search-submit {
+	background-color: #C7C8A9; 
+	margin-left: 10px;
+}
+
+#search-submit:hover {
+    background-color:#f69a9a4d;
+	cursor: pointer;
+}
+
+
 #gallery-hero-con {
 	background: url("../images/hero_gal_desktop.jpg");
 	height: 580px;

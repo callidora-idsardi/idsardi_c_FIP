@@ -404,6 +404,33 @@ nav.mobile-nav:hover .burger {
 
 /* --- 9. Hero Section --- */ 
 
+.search {
+	grid-column: 1/5;
+}
+
+.search .search-collection {
+	border: none;
+	border-radius:  5px;
+	font: inherit;
+	font-size: 20px;
+	color: #95735E;
+	margin-top: 53px;
+	padding: 10px;
+	position: relative;
+	left: 40px;
+	}
+
+#search-submit {
+	background-color: #C7C8A9; 
+	margin-left: 10px;
+}
+
+#search-submit:hover {
+    background-color:#f69a9a4d;
+	cursor: pointer;
+}
+
+
 
 #hero-gallery-con {
 	background-color: #aaaaaa;
