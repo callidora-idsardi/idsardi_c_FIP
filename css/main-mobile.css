@@ -191,13 +191,15 @@ nav.mobile-nav:hover .burger {
 	background-color: #F3DDCE;
 	text-align: center;
 	padding-top: 70px;
-	padding-bottom: 70px;
+	padding-bottom: 40px;
 	margin: 0;
 }
 
 #image-slider-con p {
 	margin: 50px; 
 	text-align: left;
+	margin-bottom: 10px;
+	padding-bottom: 15px;
 }
 
 #image-slider-con p a {
@@ -207,8 +209,6 @@ nav.mobile-nav:hover .burger {
 	font-weight: bold;
 	border-bottom: 1px solid #73624B;
 }
-
-
 
 #mobile-slider-left a {
 	position: absolute;
@@ -242,6 +242,8 @@ nav.mobile-nav:hover .burger {
 	padding-top: 70px;
 	padding-bottom: 70px;
 	margin: 0;
+
+
 }
 
 #about-us-text-con {
@@ -300,15 +302,16 @@ nav.mobile-nav:hover .burger {
 }
 
 #contact-form input, textarea {
-    padding: 9px;
+	padding: 5px;
+	padding-bottom: 20px;
+	padding-top: 20px;
     border: none;
     border-radius:  5px;
-    margin-bottom: 16px;
     font: inherit;
 	font-size: 28px;
 	margin-left: 10px;
 	margin-right: 10px;
-	margin-top: 20px;
+	margin-top: 25px;
 	color: #95735E;
 	align-self: left;
 }
@@ -327,6 +330,7 @@ nav.mobile-nav:hover .burger {
 	font-weight: bold;
 	cursor: pointer;
 	margin-top: 50px;
+	margin-bottom: 10px;
 }
 
 #contact-form input[type="submit"]:hover {
@@ -513,11 +517,10 @@ nav.mobile-nav:hover .burger {
 	font-weight: bold;
 }
 
-#footer-newsletter2 {
+#footer-newsletter1 h2 {
+	font-size: 15px;
+	font-weight: normal;
 	margin-top: 20px;
-	height:40px;
-	grid-column: 1/3;
-	background-color: #ddd;
 }
 
 .star-icon {
